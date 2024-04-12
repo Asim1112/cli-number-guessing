@@ -14,6 +14,8 @@ import inquirer from "inquirer"
 
 const generateRandom_Number = Math.floor(Math.random() * 5 + 1);
 
+console.log("welcome to number guessing game");
+
 
 const total = await inquirer.prompt([
     {
